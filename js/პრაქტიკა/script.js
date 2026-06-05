@@ -1,0 +1,294 @@
+// Introduction to JavaScript
+// 1
+// console.log(5)
+// console.log('ნიკა')
+// console.log(true)
+// console.log(5.5)
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// 2
+
+// com type 1 
+/* com type 2 */
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// // 3.1
+// console.log(5)
+// // 3.2
+// console.log(5**10)
+// // 3.3
+// console.log('რავი რამე')
+// // 3.4
+// console.log(false)
+// // 3.5
+// console.log(null)
+// // 3.6
+// console.log(undefined)
+// // 3.7
+// let id = Symbol("userId");
+// console.log(id);
+// // 3.8
+// let person = {
+//     name: "Nika",
+//     age: 16,
+//     city: "Tbilisi"
+// };
+// console.log(person.name);
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// 4.1
+// console.log(5 + 1)
+// // 4.2
+// console.log(5 - 1)
+// // 4.3
+// console.log(5 * 2)
+// // 4.4
+// console.log(5 / 2)
+// // 4.5
+// console.log(5 % 2)
+// // 4.6
+// console.log(5**2)
+// 4.7
+
+// let k = 1
+// console.log(k++)
+// // 4.8
+// let g = 3
+// console.log(g--)
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// 5
+// console.log('nika ' + 15)
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// // 6.1
+// let text = "Hello";
+// console.log(text.length);
+
+// // 6.2
+// console.log("hello".toUpperCase());
+
+// // 6.3
+// console.log("HELLO".toLowerCase());
+
+// // 6.4
+// console.log("  hello  ".trim());
+
+// // 6.5
+// console.log("hello".includes("e"));
+
+// // 6.6
+// console.log("hello".startsWith("h"));
+
+// // 6.7
+// console.log("hello".endsWith("o"));
+
+// // 6.8
+// console.log("hello".indexOf("e"));
+
+// // 6.9
+// console.log("hello".slice(1, 4));
+
+// // 6.10
+// console.log("hello".replace("h", "j"));
+
+// // 6.11
+// let arr = [1, 2];
+// arr.push(3);
+// console.log(arr);
+
+// // 6.12
+// arr = [1, 2, 3];
+// arr.pop();
+// console.log(arr);
+
+// // 6.13
+// arr = [1, 2, 3];
+// arr.shift();
+// console.log(arr);
+
+// // 6.14
+// arr = [2, 3];
+// arr.unshift(1);
+// console.log(arr);
+
+// // 6.15
+// console.log(["a", "b", "c"].join("-"));
+
+// // 6.16
+// console.log("a,b,c".split(","));
+
+// // 6.17
+// arr = [1, 2, 3];
+// arr.reverse();
+// console.log(arr);
+
+// // 6.18
+// arr = [3, 1, 2];
+// arr.sort();
+// console.log(arr);
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// // 7.1
+// console.log(Math.random()*100);
+
+// // 7.2
+// console.log(Math.round(5.5));
+
+// // 7.3
+// console.log(Math.ceil(5.1));
+
+// // 7.4
+// console.log(Math.floor(5.9));
+
+// // 7.5
+// console.log(Math.max(1, 5, 3));
+
+// // 7.6
+// console.log(Math.min(1, 5, 3));
+
+// // 7.7
+// console.log(Math.sign(-5));
+// console.log(Math.sign(5));
+// console.log(Math.sign(0));
+
+// // 7.8
+// console.log(Math.sqrt(25));
+
+// // 7.9
+// console.log(Math.pow(2, 3));
+
+// // 7.10
+// console.log(Number.isInteger(5));
+// console.log(Number.isInteger(5.5));
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// Variables 
+
+// var a = 5
+// console.log(a)
+
+// let b = 10
+// b = 8
+// console.log(b)
+
+
+// const c = 15
+// console.log(c)
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+// მათემატიკური მინიჭების ოპერატორები
+// let x = 5
+// x += 3
+// console.log(x)
+
+// x = 5
+// x -= 3
+// console.log(x)
+
+// x = 5
+// x *= 3
+// console.log(x)
+
+// x = 5
+// x /= 3
+// console.log(x)
+
+// x = 5
+// x %= 3
+// console.log(x)
+
+// x = 5
+// x **= 3
+// console.log(x)
+
+
+// -------------------------------------------------------------------------------------------------------------------------------------
+// ზრდისა და შემცირების ოპერატორი
+// let y = 5
+// y++
+// console.log(y)
+
+// y = 5
+// y--
+// console.log(y)
+
+// -------------------------------------------------------------------------------------------------------------------------------------
+// სტრინგის ინტერპოლაცია
+
+// let name = "Nika"
+// console.log(`My name is ${name}`)
+
+// -------------------------------------------------------------------------------------------------------------------------------------
+
+// conditional statements / პირობითი ოპერატორები
+// let age = 16
+// if (age >= 18) {
+//     console.log("You are an adult")
+// }else if(age >= 13) {
+//     console.log("You are a teenager")
+// } else {
+//     console.log("You are a minor")
+// }
+
+// -------------------------------------------------------------------------------------------------------------------------------------
+
+// Comparison Operators / შედარების ოპერატორები
+
+// a = 5
+// b = 10
+
+// console.log(a === b)
+// console.log(a !== b)
+// console.log(a > b)
+// console.log(a < b)
+// console.log(a >= b)
+// console.log(a <= b)
+
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------
+
+// logical operators / ლოგიკური ოპერატორები
+
+// a = 5
+// b = 10
+// console.log(a > 3 && b < 15)
+// console.log(a > 3 || b < 5)
+// console.log(!(a > 3 && b < 15))
+
+// --------------------------------------------------------------------------------------------------------------------------------------
+
+// Truthy and Falsy
+// console.log(Boolean(0))
+// console.log(Boolean(""))
+// console.log(Boolean(null))
+// console.log(Boolean(undefined))
+// console.log(Boolean(false))
+// console.log(Boolean(NaN))
+
+// console.log(Boolean(1))
+// console.log(Boolean("hello"))
+// console.log(Boolean([]))
+// console.log(Boolean({}))
+
+
+// -------------------------------------------------------------------------------------------------------------------------------------
+// prompt
+// let name = prompt("What is your name?")
+// console.log(`Hello, ${name}!`)
+
+
+
+
+
+
+
+
